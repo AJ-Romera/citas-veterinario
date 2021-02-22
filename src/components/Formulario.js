@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 
 function Formulario() {
     // Crear State de las citas
@@ -40,7 +41,11 @@ function Formulario() {
             return;
         }
 
+        // Eliminar mensaje de aviso previo
+        setError(false);
+
         // Asignar un ID
+        cita.id = uuidv4();
 
         // Crear la cita
 
