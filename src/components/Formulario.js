@@ -21,11 +21,24 @@ function Formulario() {
     // Extraer los valores
     const { mascota, propietario, fecha, hora, sintomas } = cita;
 
+    // Cuando el usuario presiona agregar cita (submit del formulario)
+    const submitCita = (e) => {
+        e.preventDefault();
+
+        // Validar
+
+        // Asignar un ID
+
+        // Crear la cita
+
+        // Reiniciar el formulario
+    };
+
     return (
         <div className='formulario'>
             <h2>Crear Cita</h2>
 
-            <form>
+            <form onSubmit={submitCita}>
                 <label>Nombre Mascota</label>
                 <input
                     type='text'
