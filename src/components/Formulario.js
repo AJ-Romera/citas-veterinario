@@ -11,9 +11,15 @@ function Formulario() {
     });
 
     // Función que se ejecuta cada vez que un usuario escribe en un input
-    const handleChange = () => {
-        console.log('No escribas encima mia hijo de p....');
+    const handleChange = (e) => {
+        setCita({
+            ...cita,
+            [e.target.name]: e.target.value,
+        });
     };
+
+    // Extraer los valores
+    const { mascota, propietario, fecha, hora, sintomas } = cita;
 
     return (
         <div className='formulario'>
@@ -27,6 +33,7 @@ function Formulario() {
                     className='u-full-width'
                     placeholder='Nombre Mascota'
                     onChange={handleChange}
+                    value={mascota}
                 />
 
                 <label>Nombre Dueño</label>
@@ -36,6 +43,7 @@ function Formulario() {
                     className='u-full-width'
                     placeholder='Nombre Dueño de la Mascota'
                     onChange={handleChange}
+                    value={propietario}
                 />
 
                 <label>Fecha</label>
@@ -44,6 +52,7 @@ function Formulario() {
                     name='fecha'
                     className='u-full-width'
                     onChange={handleChange}
+                    value={fecha}
                 />
 
                 <label>Hora</label>
@@ -52,6 +61,7 @@ function Formulario() {
                     name='hora'
                     className='u-full-width'
                     onChange={handleChange}
+                    value={hora}
                 />
 
                 <label>Síntomas</label>
@@ -59,6 +69,7 @@ function Formulario() {
                     name='sintomas'
                     className='u-full-width'
                     onChange={handleChange}
+                    value={sintomas}
                 ></textarea>
 
                 <button type='submit' className='u-full-width button-primary'>
