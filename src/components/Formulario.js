@@ -10,6 +10,9 @@ function Formulario() {
         sintomas: '',
     });
 
+    // Crear State de error
+    const [error, setError] = useState(false);
+
     // Función que se ejecuta cada vez que un usuario escribe en un input
     const handleChange = (e) => {
         setCita({
@@ -26,6 +29,16 @@ function Formulario() {
         e.preventDefault();
 
         // Validar
+        if (
+            mascota.trim() === '' ||
+            propietario.trim() === '' ||
+            fecha.trim() === '' ||
+            hora.trim() === '' ||
+            sintomas.trim() === ''
+        ) {
+            setError(true);
+            return;
+        }
 
         // Asignar un ID
 
@@ -37,6 +50,12 @@ function Formulario() {
     return (
         <div className='formulario'>
             <h2>Crear Cita</h2>
+
+            {error ? (
+                <p className='alerta-error'>
+                    Todos los campos son obligatorios
+                </p>
+            ) : null}
 
             <form onSubmit={submitCita}>
                 <label>Nombre Mascota</label>
