@@ -26,20 +26,24 @@ function App() {
     // Función que toma las citas actuales y añade una nueva
     const crearCita = (cita) => {
         setCitas([...citas, cita]);
+        alert(
+            `${cita.propietario} su cita se ha registrado satisfactoriamente. Si se trata de una urgencia, recuerde usar nuestro servicio de urgencias en el centro o a domicilio, recuerde llevar su mascarilla. Gracias.`
+        );
     };
 
     // Función que elimina una cita por su id
     const eliminarCita = (id) => {
         const nuevasCitas = citas.filter((cita) => cita.id !== id);
         setCitas(nuevasCitas);
+        alert('Su cita ha sido cancelada');
     };
 
     // Mensaje condicional según si no hay citas o si las hay
-    const titulo = citas.length === 0 ? 'No hay citas' : 'Administra tus citas';
+    const titulo = citas.length === 0 ? '' : 'Tus citas';
 
     return (
         <div className='App'>
-            <h1>Administrador de Pacientes</h1>
+            <h1>Citas Centro Veterinario AJ</h1>
 
             <div className='container'>
                 <div className='row'>

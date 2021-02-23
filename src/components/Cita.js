@@ -22,9 +22,11 @@ function Cita({ cita, eliminarCita }) {
 
             <button
                 className='button eliminar u-full-width'
-                onClick={() => eliminarCita(cita.id)}
+                onClick={() => {
+                    eliminarCita(cita.id);
+                }}
             >
-                Eliminar &times;
+                Cancelar Cita &times;
             </button>
         </div>
     );

@@ -63,11 +63,11 @@ function Formulario({ crearCita }) {
 
     return (
         <div className='formulario'>
-            <h2>Crear Cita</h2>
+            <h2>Pida Cita</h2>
 
             {error ? (
                 <p className='alerta-error'>
-                    Todos los campos son obligatorios
+                    Por favor, rellene todos los campos
                 </p>
             ) : null}
 
