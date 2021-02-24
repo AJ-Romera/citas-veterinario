@@ -4,9 +4,9 @@ _Es una web básica donde puedes pedir cita a un centro veterinario ficticio med
 
 ## Índice de Contenidos
 
--   [Demo](#demo)
--   [Construido Con](#construido-con)
--   [Instalación](#instalacion)
+-   [Demo](#demo-)
+-   [Construido Con](#construido-con-%EF%B8%8F)
+-   [Instalación](#instalación-)
 
 ## Demo 🚀
 
