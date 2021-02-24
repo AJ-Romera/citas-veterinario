@@ -7,8 +7,7 @@ body {
     font-family: sans-serif;
     background-image: url(https://images.unsplash.com/photo-1599908758979-25ba52737fb5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
     background-position: initial;
-    background-size: contain;
-    background-repeat: repeat;
+    background-size: cover;
     min-height: 100%;
     padding-bottom: 5rem;
 }
