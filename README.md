@@ -29,10 +29,16 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 _Clona o haz fork del repositorio. Abre el proyecto en tu consola y escribe el comando:_
 
 ```
+npm install
+```
+
+_Te instalará las dependencias del proyecto, luego usa el comando:_
+
+```
 npm start
 ```
 
-_Ese comando hará que veas el proyecto en modo desarrollador desde tu navegador. Se abrirá automáticamente:_
+_Iniciará el proyecto en modo desarrollador en tu navegador. Se abrirá automáticamente:_
 
 [http://localhost:3000](http://localhost:3000)
 
