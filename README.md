@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Citas Centro Veterinario AJ
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_Es una web básica donde puedes pedir cita a un centro veterinario ficticio mediante un formulario. Tras rellenar el formulario correctamente, se guarda tu cita en localStorage. Puedes cancelar la cita y pedir cuantas citas quieras._
 
-## Available Scripts
+## Índice de Contenidos
 
-In the project directory, you can run:
+-   [Demo](#installation)
+-   [Construido Con](#usage)
+-   [Instalación](#support)
+-   [Contributing](#contributing)
 
-### `npm start`
+## Demo 🚀
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://citas-veterinario-aj.netlify.app/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Construido con 🛠️
 
-### `npm test`
+_Menciona las herramientas que utilizaste para crear tu proyecto_
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   [Create React App](https://github.com/facebook/create-react-app). - Usado para crear la base del proyecto con React
+-   JavaScript ES6 - Últimos estándares de JavaScript
+-   [CSS Skeleton](http://getskeleton.com/) - Un framework ligero que ayuda con el responsive, los anchos, grid, botones, etc. Es como una versión ligera de Bootstrap.
+-   [uuid](https://www.npmjs.com/package/uuid) - Paquete de NPM que crea identificadores únicos universales. Muy útiles para IDs o keys.
 
-### `npm run build`
+### Instalación 🔧
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_Clona o haz fork del repositorio. Abre el proyecto en tu consola y escribe el comando:_
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_Ese comando hará que veas el proyecto en modo desarrollador desde tu navegador. Se abrirá automáticamente:_
 
-### `npm run eject`
+```
+[http://localhost:3000](http://localhost:3000)
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_La página se recargará si haces y guardas cambios en el código. También verás errores en la consola (si los hubiese)_
