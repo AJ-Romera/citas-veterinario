@@ -31,8 +31,6 @@ npm start
 
 _Ese comando hará que veas el proyecto en modo desarrollador desde tu navegador. Se abrirá automáticamente:_
 
-```
 [http://localhost:3000](http://localhost:3000)
-```
 
 _La página se recargará si haces y guardas cambios en el código. También verás errores en la consola (si los hubiese)_
