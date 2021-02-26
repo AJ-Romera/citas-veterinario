@@ -14,8 +14,6 @@ https://citas-veterinario-aj.netlify.app/
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
 -   [Create React App](https://github.com/facebook/create-react-app). - Usado para crear la base del proyecto con React
 -   React useState Hook - Para el estado de las citas individuales, el estado de todas las citas y el estado de error debido a que no se rellenen todos los campos del formulario
 -   React useEffect Hook - Para actualizar las citas iniciales en el localStorage cada vez que cambia el estado de citas
